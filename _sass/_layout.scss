@@ -88,11 +88,6 @@
     margin-left: 20px;
   }
 
-  amp-sidebar {
-    width: 200px;
-    padding-right: 10px;
-  }
-
   .amp-close-image {
     top: 10px;
     left: 175px;
@@ -131,6 +126,9 @@
     padding: $spacing-unit 0;
     background: #37474F;
     color: #90A4AE;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 /**
  * Page content
